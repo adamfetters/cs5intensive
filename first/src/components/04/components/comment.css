@@ -1,0 +1,13 @@
+.comment {
+  border: 1px solid black;
+  height: 100px;
+  list-style: none;
+  background: lightblue;
+  width: 500px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.username {
+  margin-top: 40px;
+}
