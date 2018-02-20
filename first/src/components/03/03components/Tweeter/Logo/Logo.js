@@ -1,10 +1,12 @@
 import React from 'react';
+
+import './logo.css';
 import logo from './images/lambdawhite.png';
 
 const Logo = () => {
   return (
-    <div>
-      <img src={logo} />
+    <div className="logo">
+      <img src={logo} alt="lambda" />
     </div>
   );
 };

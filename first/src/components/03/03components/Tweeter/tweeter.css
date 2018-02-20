@@ -7,6 +7,10 @@
   min-height: 25vh;
 }
 
+.header {
+  flex-direction: row;
+}
+
 .buttons {
   margin: 10px;
 }
