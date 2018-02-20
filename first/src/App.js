@@ -1,16 +1,26 @@
 import React, { Component } from 'react';
-import FirstFunctional from './components/FirstFunctional';
-
 import './App.css';
+import Second from './components/02'; // Component with Props from Parent.
+import Third from './components/03';
+import Fourth from './components/04';
+import Fifth from './components/05';
+import Sixth from './components/06';
+import Seventh from './components/07';
+import Eighth from './components/08';
+import Ninth from './components/09';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <h1 className="App-title">CS5 Intensive React Workout</h1>
-        </div>
-        <FirstFunctional />
+        <Second blanket={'Blanky'} />
+        <Third />
+        <Fourth />
+        <Fifth />
+        <Sixth />
+        <Seventh />
+        <Eighth />
+        <Ninth />
       </div>
     );
   }

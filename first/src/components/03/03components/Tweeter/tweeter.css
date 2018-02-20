@@ -1,0 +1,12 @@
+.container {
+  border: 1px #d3d3d3 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+}
+
+.buttons {
+  margin: 10px;
+}
