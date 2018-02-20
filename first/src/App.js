@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1>CS5 Intesive React Workout</h1>
+          <h1 className="App-title">CS5 Intensive React Workout</h1>
         </div>
         <FirstFunctional />
       </div>
