@@ -7,9 +7,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      
-       <FirstFunctional />
-          
+        <div className="App-header">
+          <h1>CS5 Intesive React Workout</h1>
+        </div>
+        <FirstFunctional />
       </div>
     );
   }
